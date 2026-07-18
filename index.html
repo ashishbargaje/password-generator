@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./index.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Karla:ital,wght@0,200..800;1,200..800&family=Orbitron:wght@400..900&family=Oxanium:wght@200..800&family=Space+Grotesk:wght@300..700&family=Spinnaker&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Orbitron:wght@400..900&family=Oxanium:wght@200..800&family=Space+Grotesk:wght@300..700&family=Spinnaker&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body class="karla-font">
+    <h1>Generate a <br><span>random password</span></h1>
+    <p>Never use an insecure password again.</p>
+    <p>Enter required length of password: <input id="length-el" type="number" min="6" max="20" value="16"></p>
+    <button id="gen-btn" onclick="generatePasswords()">Generate passwords</button>
+    <div id="password-btn-section">
+        <button class="pass-btn" id="pass1-el"></button>
+        <button class="pass-btn" id="pass2-el"></button>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>
